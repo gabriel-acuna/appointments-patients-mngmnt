@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using appointments_patients.Models.Account;
+using appointments_patients.Entities.Account;
 
 namespace appointments_patients.Data
 {
@@ -14,7 +14,7 @@ namespace appointments_patients.Data
         {
         }
 
-        public DbSet<appointments_patients.Models.Account.Role> Role { get; set; }
-        public DbSet<appointments_patients.Models.Account.UserAccount> UserAccounts { get; set; }
+        public DbSet<Role> Role { get; set; }
+        public DbSet<UserAccount> UserAccounts { get; set; }
     }
 }

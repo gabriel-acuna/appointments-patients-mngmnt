@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using appointments_patients.Data;
-using appointments_patients.Models.Account;
+using appointments_patients.Entities.Account;
 
 namespace appointments_patients.Controllers.Accounts
 {

@@ -1,5 +1,5 @@
 using System;
-namespace appointments_patients.Models.Account
+namespace appointments_patients.Entities.Account
 
 {
     public class Role {

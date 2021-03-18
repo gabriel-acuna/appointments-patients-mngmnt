@@ -33,6 +33,7 @@ namespace appointments_patients
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Appointments and Patients Management", Version = "v1" });
+                
             });
 
             services.AddDbContext<AppointmentsPatientsContext>(options =>

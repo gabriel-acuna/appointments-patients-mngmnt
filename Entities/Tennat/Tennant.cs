@@ -1,6 +1,6 @@
 using System;
 
-namespace appointments_patients.Models.Tennat
+namespace appointments_patients.Entities.Tennat
 {
     public class Tennat
     {
